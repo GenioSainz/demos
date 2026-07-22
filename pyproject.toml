@@ -1,0 +1,20 @@
+
+[project]
+name = "pyampacity"
+version = "0.0.2"
+
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "perlin-noise",
+    "ipympl",
+    "ipykernel"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pyampacity*"]
+
